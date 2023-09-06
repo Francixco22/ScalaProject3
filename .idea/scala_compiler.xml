@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <parameters>
+      <parameter value="addSbtPlugin(&quot;com.eed3si9n&quot;" />
+      <parameter value="%" />
+      <parameter value="&quot;sbt-assembly&quot;" />
+      <parameter value="%" />
+      <parameter value="&quot;0.15.0&quot;)" />
+    </parameters>
+    <profile name="sbt 1" modules="ScalaProject">
+      <option name="deprecationWarnings" value="true" />
+    </profile>
+  </component>
+</project>

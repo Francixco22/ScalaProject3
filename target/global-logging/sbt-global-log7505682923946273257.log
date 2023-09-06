@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(assembly, Some(752d0450-e162-4c45-8e81-839b345c92b2), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: assembly[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid project ID: assembly[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: assembly[0m
+[0m[[0m[31merror[0m] [0m[0massembly[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

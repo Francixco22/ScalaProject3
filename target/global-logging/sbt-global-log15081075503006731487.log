@@ -1,0 +1,9 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\USUARIO\IdeaProjects\ScalaProject\target\scala-2.12\classes ...
+[warn] three deprecations; re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[success] Total time: 6 s, completed 5 sept 2023, 19:01:26
+[debug] > Exec(idea-shell, None, None)

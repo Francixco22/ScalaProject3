@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(f824d564-d6ca-4320-8438-d06a463dc340), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to C:\Users\USUARIO\IdeaProjects\ScalaProject\target\scala-2.12\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree deprecations; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 12 s, completed 3 sept 2023, 22:32:21[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

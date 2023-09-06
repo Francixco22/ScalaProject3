@@ -1,0 +1,103 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\CSVFile4.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\CSVFile4.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions.{col, expr, regexp_replace, substring}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\CSVFile4.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.types.{StringType, StructField, StructType}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\CSVFile4.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{DataFrame, SparkSession}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\CSVFile4.scala:8:20: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m    val conf = new SparkConf().setAppName("CSVJoinApp")[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\CSVFile4.scala:10:17: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val spark = SparkSession.builder().config(conf).getOrCreate()[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\CSVFile4.scala:19:13: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val df3:DataFrame = spark.read.option("header", "true").option("quote","\"")[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\CSVFile4.scala:33:13: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val df1:DataFrame = spark.read.option("header", "true").option("quote", "\"")[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\CSVFile4.scala:48:19: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val groupedDF:DataFrame = df1.join(cleanedDf3, Seq("Country Code"))[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\UploadData.scala:1:12: object google is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.google.cloud.storage.{BlobInfo, Storage, StorageOptions}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\UploadData.scala:3:12: object google is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.google.auth.oauth2.ServiceAccountCredentials[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\UploadData.scala:13:23: not found: value ServiceAccountCredentials[0m
+[0m[[0m[31merror[0m] [0m[0m    val credentials = ServiceAccountCredentials.fromStream(credentialsStream)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\UploadData.scala:14:18: not found: type Storage[0m
+[0m[[0m[31merror[0m] [0m[0m    val storage: Storage = StorageOptions.newBuilder().setCredentials(credentials).setProjectId(projectId).build().getService()[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\UploadData.scala:14:28: not found: value StorageOptions[0m
+[0m[[0m[31merror[0m] [0m[0m    val storage: Storage = StorageOptions.newBuilder().setCredentials(credentials).setProjectId(projectId).build().getService()[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\UploadData.scala:21:24: object google is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0m      val blobId = com.google.cloud.storage.BlobId.of(bucketName, objectName)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\UploadData.scala:22:22: not found: value BlobInfo[0m
+[0m[[0m[31merror[0m] [0m[0m      val blobInfo = BlobInfo.newBuilder(blobId).build()[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{DataFrame, SparkSession}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.streaming._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:4:12: object google is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.google.cloud.pubsub.v1.Publisher[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:5:12: object google is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.google.auth.oauth2.ServiceAccountCredentials[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:6:12: object google is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.google.api.gax.core.FixedCredentialsProvider[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:7:12: object google is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.google.protobuf.ByteString[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:8:12: object google is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.google.pubsub.v1.{ProjectTopicName, PubsubMessage, TopicName}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:9:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.streaming.{Seconds, StreamingContext}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:20:17: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val spark = SparkSession.builder()[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:30:25: not found: value Seconds[0m
+[0m[[0m[31merror[0m] [0m[0m    val batchInterval = Seconds(300)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:31:19: not found: type StreamingContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val ssc = new StreamingContext(spark.sparkContext, batchInterval)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:35:21: not found: value TopicName[0m
+[0m[[0m[31merror[0m] [0m[0m    val topicName = TopicName.of(projectId, topicId)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:36:23: not found: value ServiceAccountCredentials[0m
+[0m[[0m[31merror[0m] [0m[0m    val credentials = ServiceAccountCredentials.fromStream(new FileInputStream(credentialsPath))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:37:31: not found: value FixedCredentialsProvider[0m
+[0m[[0m[31merror[0m] [0m[0m    val credentialsProvider = FixedCredentialsProvider.create(credentials)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:38:21: not found: value Publisher[0m
+[0m[[0m[31merror[0m] [0m[0m    val publisher = Publisher.newBuilder(topicName)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:43:36: not found: value ByteString[0m
+[0m[[0m[31merror[0m] [0m[0m    val messages = rows.map(row => ByteString.copyFromUtf8(row))[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\USUARIO\IdeaProjects\ScalaProject\src\main\scala\WebRead.scala:44:24: object google is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0m      .map(data => com.google.pubsub.v1.PubsubMessage.newBuilder().setData(data).build())[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m34 errors found[0m

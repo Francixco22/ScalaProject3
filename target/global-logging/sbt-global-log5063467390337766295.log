@@ -1,0 +1,8 @@
+[debug] > Exec(refresh, None, None)
+[error] Not a valid command: refresh
+[error] Not a valid project ID: refresh
+[error] Expected ':'
+[error] Not a valid key: refresh (similar: resources)
+[error] refresh
+[error]        ^
+[debug] > Exec(idea-shell, None, None)
