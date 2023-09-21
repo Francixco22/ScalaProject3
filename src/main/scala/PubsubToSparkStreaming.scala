@@ -27,6 +27,7 @@ object PubsubToSparkStreaming {
 
     val serviceAccountJsonKeyFilePath = "C:/Users/USUARIO/IdeaProjects/ScalaProject/src/main/scala/Files/model-journal-395918-d60561732cb2.json"
     val credentials =  SparkGCPCredentials.builder.metadataServiceAccount().build()
+
     val lines: DStream[String] = PubsubUtils.createStream(
       ssc,
       "model-journal-395918",

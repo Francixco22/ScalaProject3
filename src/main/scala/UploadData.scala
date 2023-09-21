@@ -6,7 +6,7 @@ object UploadData {
   def main(args: Array[String]): Unit = {
 
     val projectId = "model-journal-395918"
-    val bucketName = "bucketmal"
+    val bucketName = "bucketresult"
     val localFilePath = "C:/Users/USUARIO/IdeaProjects/ScalaProject/src/main/scala/Files"
     val objectName = "uploaded-file.txt"
     val credentialsStream = new FileInputStream("C:/Users/USUARIO/IdeaProjects/ScalaProject/src/main/scala/key/clave.json")
