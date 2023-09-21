@@ -36,7 +36,7 @@ while True:
     difference = currentDate -lastDate
     lastDate2 = lastDate - datetime.timedelta(hours=1)
     difference = difference.total_seconds()
-    if(difference >= 600):#Volver a modificar a 3600
+    if(difference >= 3600):#Volver a modificar a 3600
         currentDate = currentDate.strftime("%Y-%m-%dT%H:%M")
         lastDate = lastDate.strftime("%Y-%m-%dT%H:%M")
         lastDate2 = lastDate2.strftime("%Y-%m-%dT%H:%M")
